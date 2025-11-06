@@ -1,0 +1,74 @@
+body {
+  font-family: 'Fira Code', monospace;
+  background-color: #121212;
+  color: #ffffff;
+  scroll-behavior: smooth;
+}
+#about {
+  background-color: #f5f5f5; /* Light gray for contrast */
+  color: #333333; /* Dark text for readability */
+}
+
+#about h2 {
+  color: #4A90E2; /* Accent color for heading */
+}
+
+#about p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.1rem;
+}
+
+.glass-nav {
+  backdrop-filter: blur(10px);
+  background-color: rgba(18, 18, 18, 0.9) !important;
+  border-bottom: 1px solid #E5BEB5;
+}
+
+.hero-section {
+  background: url('images/hacker-bg.jpg') center center/cover no-repeat;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.text-accent {
+  color: #E5BEB5;
+}
+
+.btn-outline-accent {
+  border: 1px solid #E5BEB5;
+  color: #E5BEB5;
+}
+
+.btn-outline-accent:hover {
+  background-color: #E5BEB5;
+  color: #121212;
+}
+
+.skill-box,
+.project-box {
+  background-color: #1e1e1e;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 3px solid #E5BEB5;
+  transition: 0.3s ease;
+}
+
+.skill-box:hover,
+.project-box:hover {
+  background-color: #333333;
+  transform: translateY(-5px);
+}
+
+footer {
+  background-color: #1e1e1e;
+  color: #E5BEB5;
+}
+
+#themeToggle {
+  background: none;
+  border: none;
+  color: #E5BEB5;
+  font-size: 1.2rem;
+}
